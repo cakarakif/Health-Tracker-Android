@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/alertpht"
+    android:orientation="vertical"
+    tools:context=".alertPHT">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="270dp"
+        android:textColor="#FFFF"
+        android:text="NORMAL"
+        android:layout_width="60dp"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="270dp"
+        android:textColor="#FFFF"
+        android:text="NORMAL"
+        android:layout_width="60dp"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/s1"
+        android:layout_marginTop="63dp"
+        android:layout_marginLeft="270dp"
+        android:textColor="#FFFF"
+        android:text="PRE-DIABETES"
+        android:layout_width="70dp"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:id="@+id/p1"
+        android:layout_marginTop="58dp"
+        android:layout_marginLeft="270dp"
+        android:textColor="#FFFF"
+        android:text="NORMAL"
+        android:layout_width="60dp"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/w1"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="270dp"
+        android:textColor="#FFFF"
+        android:text="NORMAL"
+        android:layout_width="60dp"
+        android:layout_height="20dp" />
+
+
+
+</LinearLayout>

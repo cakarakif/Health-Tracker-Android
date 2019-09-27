@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Graphics">
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart"
+        android:layout_width="330dp"
+        android:layout_height="500dp"></com.github.mikephil.charting.charts.LineChart>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+        <Button
+            android:id="@+id/reset"
+            android:layout_marginLeft="150dp"
+            android:background="@drawable/reset"
+            android:layout_width="50dp"
+            android:layout_height="25dp" />
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/ok"
+            android:layout_width="50dp"
+            android:layout_height="25dp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

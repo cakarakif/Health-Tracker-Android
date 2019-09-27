@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BMI"
+    android:orientation="vertical"
+    android:background="@drawable/bmiback">
+
+    <Button
+        android:id="@+id/backbutton"
+        android:background="@drawable/backbutton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="18dp"/>
+
+    <EditText
+        android:id="@+id/weight"
+        android:maxLength="4"
+        android:singleLine="true"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="237dp"
+        android:hint="Enter the weight" />
+
+    <EditText
+        android:id="@+id/height"
+        android:maxLength="4"
+        android:singleLine="true"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="5dp"
+        android:hint="Enter the height" />
+
+    <Button
+        android:id="@+id/calculate"
+        android:background="@drawable/calculate"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="144dp"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

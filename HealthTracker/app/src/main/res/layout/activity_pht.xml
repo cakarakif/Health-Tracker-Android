@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PHT"
+    android:background="@drawable/phtback"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/backbutton"
+        android:background="@drawable/backbutton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="18dp"/>
+
+    <EditText
+        android:id="@+id/tension"
+        android:maxLength="5"
+        android:singleLine="true"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:hint="Blood pressure"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/sugar"
+        android:maxLength="5"
+        android:singleLine="true"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:hint="Blood sugar"
+        android:layout_marginLeft="100dp"/>
+
+    <EditText
+        android:id="@+id/pulse"
+        android:maxLength="5"
+        android:singleLine="true"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:hint="Heart rate"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="7dp"/>
+
+    <EditText
+        android:id="@+id/weight"
+        android:maxLength="5"
+        android:singleLine="true"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:hint="Weight"
+        android:layout_marginLeft="100dp"/>
+
+    <Button
+        android:id="@+id/calculate"
+        android:background="@drawable/check"
+        android:layout_width="103dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="144dp"
+        android:layout_marginTop="4dp"/>
+
+    <Button
+        android:textColor="#000080"
+        android:text="Graph"
+        android:id="@+id/graph"
+        android:background="@drawable/graph"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="156dp"
+        android:layout_marginTop="50dp"/>
+
+
+
+
+</LinearLayout>

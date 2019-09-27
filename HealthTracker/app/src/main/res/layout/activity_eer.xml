@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/errback"
+    tools:context=".EER">
+
+    <Button
+        android:id="@+id/backbutton"
+        android:background="@drawable/backbutton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="18dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="42dp"
+        android:layout_marginLeft="16dp"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/valPA"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/sedentary"
+                android:background="@drawable/sedentary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+            <RadioButton
+                android:id="@+id/lowactive"
+                android:background="@drawable/lowactive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+            <RadioButton
+                android:id="@+id/active"
+                android:background="@drawable/active"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+            <RadioButton
+                android:id="@+id/veryactive"
+                android:background="@drawable/veryactive"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_weight="1"
+            android:background="@drawable/man"
+            android:layout_width="100dp"
+            android:layout_height="40dp"/>
+        <RadioGroup
+            android:id="@+id/gender"
+            android:orientation="horizontal"
+            android:layout_width="70dp"
+            android:layout_height="50dp">
+
+            <RadioButton
+                android:id="@+id/man"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+
+            <RadioButton
+                android:id="@+id/woman"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </RadioGroup>
+
+        <ImageView
+            android:layout_weight="1"
+            android:background="@drawable/woman"
+            android:layout_width="100dp"
+            android:layout_height="40dp"/>
+
+
+    </LinearLayout>
+
+
+
+    <EditText
+        android:id="@+id/age"
+        android:maxLength="3"
+        android:singleLine="true"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter your age"
+        android:layout_marginLeft="100dp"/>
+
+    <EditText
+        android:id="@+id/weight"
+        android:maxLength="5"
+        android:singleLine="true"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter your weight"
+        android:layout_marginLeft="100dp"/>
+
+    <EditText
+        android:id="@+id/height"
+        android:maxLength="4"
+        android:singleLine="true"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter your height"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="1dp"/>
+
+    <Button
+        android:id="@+id/calculate"
+        android:background="@drawable/calculate"
+        android:layout_width="103dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="144dp"
+        android:layout_marginTop="13dp"/>
+</LinearLayout>
