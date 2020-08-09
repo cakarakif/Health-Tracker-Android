@@ -9,6 +9,7 @@
     android:background="@drawable/stayfit">
 
     <LinearLayout
+        android:layout_marginBottom="5dp"
         android:layout_weight="1"
         android:gravity="center|bottom"
         android:orientation="horizontal"
@@ -18,7 +19,7 @@
         <Button
             android:id="@+id/bmi"
             android:layout_width="wrap_content"
-            android:layout_height="150dp"
+            android:layout_height="200dp"
             android:layout_weight="1"
             android:background="@drawable/bmi"
             />
@@ -26,14 +27,14 @@
         <Button
             android:id="@+id/eer"
             android:layout_width="wrap_content"
-            android:layout_height="150dp"
+            android:layout_height="200dp"
             android:layout_weight="1"
             android:background="@drawable/eer" />
 
         <Button
             android:id="@+id/pht"
             android:layout_width="wrap_content"
-            android:layout_height="150dp"
+            android:layout_height="200dp"
             android:layout_weight="1"
             android:background="@drawable/pht" />
     </LinearLayout>

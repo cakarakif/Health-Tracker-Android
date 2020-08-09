@@ -28,7 +28,7 @@
             android:textColor="#E52929"
             android:textStyle="bold"
             android:textSize="12dp"
-            android:layout_marginLeft="53dp"
+            android:layout_marginLeft="50dp"
             android:layout_marginTop="132dp"
             android:text="1500"
             android:layout_width="35dp"
