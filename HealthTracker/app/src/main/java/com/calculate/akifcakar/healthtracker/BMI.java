@@ -1,8 +1,6 @@
-package com.calculate.bmieerpht.healthtracker;
+package com.calculate.akifcakar.healthtracker;
 
 import android.content.Intent;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,6 +10,9 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.calculate.akifcakar.healthtracker.R;
+
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class BMI extends AppCompatActivity {
 

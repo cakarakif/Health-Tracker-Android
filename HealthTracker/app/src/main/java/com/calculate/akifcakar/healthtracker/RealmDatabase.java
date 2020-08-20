@@ -1,4 +1,4 @@
-package com.calculate.bmieerpht.healthtracker;
+package com.calculate.akifcakar.healthtracker;
 
 import android.app.Application;
 

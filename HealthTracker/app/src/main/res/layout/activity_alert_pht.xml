@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     android:background="@drawable/alertpht"
     android:orientation="vertical"
-    tools:context=".alertPHT">
+    tools:context=".PHT">
 
     <TextView
         android:id="@+id/t1"

@@ -20,7 +20,6 @@
         <activity android:name="com.calculate.akifcakar.healthtracker.BMI" />
         <activity android:name="com.calculate.akifcakar.healthtracker.EER" />
         <activity android:name="com.calculate.akifcakar.healthtracker.PHT" />
-        <activity android:name=".alertBMI" />
     </application>
 
 </manifest>
